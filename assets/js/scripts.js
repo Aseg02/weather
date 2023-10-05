@@ -1,5 +1,5 @@
 var key = '64f2ee2a8261daa4d9f780f5b365f275';
-var city = "Denver"
+var city = "Austin"
 
 //Grabs the current time and date
 var date = moment().format('dddd, MMMM Do YYYY');
@@ -173,7 +173,7 @@ function getFiveDayForecast() {
 	});
 };
 
-//Allows for the example data to load for Denver
+//Allows for the example data to load for Austin
 function initLoad() {
 
 	var cityHistStore = JSON.parse(localStorage.getItem('city'));
